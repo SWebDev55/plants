@@ -20,6 +20,8 @@
         text-align: center;
         padding-bottom: 10px;
     }
+    .header .row .main-box .menu{
+        text-align: center;
     .header .row .main-box .menu ul{
         margin: 0;
         padding: 0;
