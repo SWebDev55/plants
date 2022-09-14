@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blog-detail .main-box{
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .header .row{
+        width: 100%;
+    }
+    .header .row .main-box{
+        display: inline-block;
+        width: 100%;
+    }
+    .header .row .main-box .logo{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .header .row .main-box .menu ul{
+        margin: 0;
+        padding: 0;
+    }
+    .header .row .main-box .menu ul li{
+        display: inline-block;
+    }
+    .header .row .main-box .menu ul li a{
+        display: block;
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .banner .main-box{
+        width: 100%;
+        padding: 0px !important;
+    }
+    .banner .main-box .text h1{
+        font-size: 20px;
+    }
+    .banner .main-box .text h6{
+        font-size: 13px;
+        padding: 5px 0px !important;
+    }
+    .banner .main-box .text p{
+        font-size: 12px;
+        padding: 0px !important;
+    }
+    .banner .main-box .text a{
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .main-blog-1{
+        width: 100%;
+        padding: 5px !important;
+        margin: 0px !important;
+    }
+    .main-blog-1 h1{
+        font-size: 20px;
+        padding: 5px !important;
+    }
+    .main-blog-1 .row-start .grid{
+        display: inline-block;
+    }
+    .main-blog-1 .row-start .grid .col-span-3{
+        width: 50%;
+        float: left;
+    }
+    .main-blog-1 .row-start .grid .col-span-3 .box-text p{
+        font-size: 14px;
+    }
+
+    .main-feature h1{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .main-feature .row-start{
+        margin: 5px 0px !important;
+    }
+    .main-feature .row-start .grid{
+        display: inline-block;
+    }
+    .main-feature .row-start .grid .col-span-3{
+        width: 50%;
+        float: left;
+        padding: 5px;
+    }
+    .main-feature .row-start .grid .col-span-3 .box-text p{
+        font-size: 15px;
+        padding: 0px !important;
+    }
+    .main-feature .row-start .grid .hero{
+        display: none;
+    }
+
+    footer .main-box{
+        width: 100%;
+        display: block;
+    }
+    footer .main-box .left{
+        width: 100%;
+        text-align: center;
+        padding: 0px !important;
+        display: inline-block;
+    }
+    footer .main-box .left .social{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    footer .main-box .left .social a{
+        display: block;
+    }
+    footer .main-box .right{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    footer .main-box .right h1{
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+    .header .row{
+        width: 100%;
+    }
+    .header .row .main-box{
+        display: inline-block;
+        width: 100%;
+    }
+    .header .row .main-box .logo{
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .header .row .main-box .menu{
+        text-align: center;
+        width: 100%;
+    }
+    .header .row .main-box .menu ul{
+        margin: 0;
+        padding: 0;
+    }
+    .header .row .main-box .menu ul li{
+        display: inline-block;
+    }
+    .header .row .main-box .menu ul li a{
+        display: block;
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .banner .main-box{
+        width: 100%;
+        padding: 0px !important;
+    }
+    .banner .main-box .text h1{
+        font-size: 40px;
+    }
+    .banner .main-box .text h6{
+        font-size: 20px;
+        padding: 5px 0px !important;
+    }
+    .banner .main-box .text p{
+        font-size: 18px;
+        padding: 10px 0px !important;
+    }
+    .banner .main-box .text a{
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .main-blog-1{
+        width: 100%;
+        padding: 5px !important;
+        margin: 0px !important;
+    }
+    .main-blog-1 h1{
+        font-size: 20px;
+        padding: 5px !important;
+    }
+    .main-blog-1 .row-start .grid{
+        display: inline-block;
+    }
+    .main-blog-1 .row-start .grid .col-span-3{
+        width: 33.3%;
+        float: left;
+    }
+    .main-blog-1 .row-start .grid .col-span-3 .box-text p{
+        font-size: 14px;
+    }
+
+    .main-feature h1{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .main-feature .row-start{
+        margin: 5px 0px !important;
+    }
+    .main-feature .row-start .grid{
+        display: inline-block;
+    }
+    .main-feature .row-start .grid .col-span-3{
+        width: 33.3%;
+        float: left;
+        padding: 5px;
+    }
+    .main-feature .row-start .grid .col-span-3 .box-text p{
+        font-size: 15px;
+        padding: 0px !important;
+    }
+    .main-feature .row-start .grid .hero{
+        display: none;
+    }
+
+    footer .main-box{
+        width: 100%;
+        display: block;
+    }
+    footer .main-box .left{
+        width: 100%;
+        text-align: center;
+        padding: 0px !important;
+        display: inline-block;
+    }
+    footer .main-box .left .social{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    footer .main-box .left .social a{
+        display: block;
+    }
+    footer .main-box .right{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    footer .main-box .right h1{
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+
+
+@media (min-width: 767px) and (max-width: 1024px){
+    .header .row{
+        width: 100%;
+    }
+    .header .row .main-box{
+        display: inline-block;
+        width: 100%;
+    }
+    .header .row .main-box .logo{
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .header .row .main-box .menu{
+        text-align: center;
+        width: 100%;
+    }
+    .header .row .main-box .menu ul{
+        margin: 0;
+        padding: 0;
+    }
+    .header .row .main-box .menu ul li{
+        display: inline-block;
+    }
+    .header .row .main-box .menu ul li a{
+        display: block;
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .banner .main-box{
+        width: 100%;
+        padding: 0px !important;
+    }
+    .banner .main-box .text h1{
+        font-size: 70px;
+    }
+    .banner .main-box .text h6{
+        font-size: 20px;
+        padding: 5px 0px !important;
+    }
+    .banner .main-box .text p{
+        font-size: 18px;
+        padding: 20px 0px !important;
+    }
+    .banner .main-box .text a{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .main-blog-1{
+        width: 100%;
+        padding: 5px !important;
+        margin: 0px !important;
+    }
+    .main-blog-1 h1{
+        font-size: 20px;
+        padding: 5px !important;
+    }
+    .main-blog-1 .row-start .grid{
+        display: inline-block;
+    }
+    .main-blog-1 .row-start .grid .col-span-3{
+        width: 33.3%;
+        float: left;
+    }
+    .main-blog-1 .row-start .grid .col-span-3 .box-text p{
+        font-size: 14px;
+    }
+
+    .main-feature h1{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .main-feature .row-start{
+        margin: 5px 0px !important;
+    }
+    .main-feature .row-start .grid{
+        display: inline-block;
+    }
+    .main-feature .row-start .grid .col-span-3{
+        width: 33.3%;
+        float: left;
+        padding: 5px;
+    }
+    .main-feature .row-start .grid .col-span-3 .box-text p{
+        font-size: 15px;
+        padding: 0px !important;
+    }
+    .main-feature .row-start .grid .hero{
+        display: none;
+    }
+
+    footer .main-box{
+        width: 100%;
+        display: block;
+    }
+    footer .main-box .left{
+        width: 100%;
+        text-align: center;
+        padding: 0px !important;
+        display: inline-block;
+    }
+    footer .main-box .left .social{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    footer .main-box .left .social a{
+        display: block;
+    }
+    footer .main-box .right{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    footer .main-box .right h1{
+        text-align: center;
+        width: 100%;
+    }
+    
+}
